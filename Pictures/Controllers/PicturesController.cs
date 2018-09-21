@@ -11,6 +11,7 @@ namespace Pictures.Controllers
     public class PicturesController : ApiController
     {
         // GET: api/Pictures/5
+        // Aanpassing van de pieje
         public HttpResponseMessage Get(string id)
         {
             string filePath = string.Format(@"C:\temp\pictures\{0}.jpg", id);
