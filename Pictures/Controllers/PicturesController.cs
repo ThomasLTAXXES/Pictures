@@ -17,6 +17,7 @@ namespace Pictures.Controllers
         internal const string FILE_PATH = DIRECTORY + @"{0}.jpg";
 
         // GET: api/Pictures/5
+        // Aanpassing van de pieje
         public HttpResponseMessage Get(string id)
         {
             string filePath = string.Format(FILE_PATH, id);
